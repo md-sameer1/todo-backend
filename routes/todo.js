@@ -92,3 +92,5 @@ router.delete("/:id", async (req, res) => {
       .json({ error: "Something went wrong while deleting the task" });
   }
 });
+
+module.exports = router;
